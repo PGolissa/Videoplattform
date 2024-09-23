@@ -1,0 +1,200 @@
+/* Grundlegende Reset-Regeln */
+
+* {
+    margin: 0px;
+    padding: 0px;  
+    box-sizing: border-box;
+}
+
+/* Gesamtstruktur */
+body {
+    display: flex;
+    flex-direction: column;
+   background-color:rgb(241, 234, 234);
+    
+    
+    
+}
+
+/* Header */
+.header {
+    display: flex;
+    background: rgb(46, 43, 41);
+   
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    align-items: center;
+   
+    justify-content:end;
+    
+    height: 50px;
+   
+   
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content:end;
+    background-color: pink;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+   align-items: center;
+    
+
+    
+    
+}
+
+.navbar a {
+    
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+/* Hauptbereich mit Grid */
+.main-content {
+   
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    
+}
+
+/* Video-Bereich */
+.video-section {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 20px;
+    background: white;;
+    padding: 10px;
+    margin:10px;
+    
+}
+.video-section1 {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 20px;
+    background: white;;
+    padding: 10px;
+    margin:10px;
+    width: 600px;
+    height: 400px;
+}
+.video-section2 {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 20px;
+    background: white;;
+    padding: 10px;
+    margin:10px;
+    width: 600px;
+    height: 400px;
+}
+.video-section3 {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 20px;
+    background: white;;
+    padding: 10px;
+    margin:10px;
+    width: 600px;
+    height: 400px;
+}
+/* Neuer Bereich: Podcasts */
+.podcast-section {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr auto-fit;
+    grid-gap: 20px;
+    background: white;
+    padding: 10px;
+    margin:10px;
+    
+	
+}
+
+.podcast-section ul {
+    list-style-type: none;
+}
+
+.podcast-section li {
+    margin-bottom: 10px;
+
+}
+
+.podcast-section a {
+    
+}
+
+.podcast-section a:hover {
+    text-decoration: underline;
+}
+
+/* Artikel-Bereich */
+.article-section {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px silver;
+    padding: 10px;
+    margin:10px;
+    display: grid;
+}
+.article-section2{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px silver;
+    padding: 10px;
+    margin:10px;
+}
+.article-section3{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px silver;
+    padding: 10px;
+    margin:10px;
+    
+}
+/* Footer */
+.footer {
+    display: flex;
+    background-color:  rgb(46, 43, 41);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+    
+.img1 {
+
+
+    width: 200px;
+    height: 150px;
+}
+.button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  
+  }
+  
